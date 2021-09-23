@@ -1,5 +1,14 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+
+.AboutMe {
+    /*margin: left;*/
+    width: 50%;
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
