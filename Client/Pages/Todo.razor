@@ -17,14 +17,20 @@
 
 @code {
     private List<TodoItem>todos = new();
+    // Creatinga new ToDo list item
     private string newTodo;
-
+    
     private void AddTodo()
+    // adding item to the todo list
     {
+
         if (!string.IsNullOrWhiteSpace(newTodo))
+            // Making sure the item added is not blank
             {
             todos.Add(new TodoItem { Title = newTodo });
+            // Actually adds the item to the list
             newTodo = string.Empty;
+            // Populates a blank statement in the entry field.
             }
         }
     }
